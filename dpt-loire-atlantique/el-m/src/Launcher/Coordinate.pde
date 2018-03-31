@@ -54,6 +54,6 @@ public class Coordinate {
   public void convertToXY(){
       this.x = (float) (((this.longitude - 14.15) * Math.cos(42.7))/13.20)+0.5;
       this.y = (float) (-(this.latitude - 42.7)/ 26.7)+0.5;
-      System.out.println(this.x + "," + this.y);
+      //System.out.println(this.x + "," + this.y);
   }
 }
